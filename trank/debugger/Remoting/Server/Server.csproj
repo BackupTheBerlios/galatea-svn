@@ -103,7 +103,7 @@
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "SampleServer.cs"
+                    RelPath = "Server.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
                 />
