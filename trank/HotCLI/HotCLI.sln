@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "systemTrayApplication", "systemTrayApplication.csproj", "{55020C9C-2EF8-4D89-BADE-8A4E6969892F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotCLI", "HotCLI.csproj", "{55020C9C-2EF8-4D89-BADE-8A4E6969892F}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject

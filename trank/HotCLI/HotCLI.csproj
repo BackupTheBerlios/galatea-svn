@@ -9,7 +9,7 @@
             <Settings
                 ApplicationIcon = "Images/App.ico"
                 AssemblyKeyContainerName = ""
-                AssemblyName = "systemTrayApplication"
+                AssemblyName = "HotCLI"
                 AssemblyOriginatorKeyFile = ""
                 DefaultClientScript = "JScript"
                 DefaultHTMLPageLayout = "Grid"
@@ -18,7 +18,7 @@
                 OutputType = "WinExe"
                 PreBuildEvent = ""
                 PostBuildEvent = ""
-                RootNamespace = "systemTrayApplication"
+                RootNamespace = "HotCLI"
                 RunPostBuildEvent = "OnBuildSuccess"
                 StartupObject = ""
             >
