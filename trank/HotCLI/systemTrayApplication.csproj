@@ -7,7 +7,7 @@
     >
         <Build>
             <Settings
-                ApplicationIcon = "App.ico"
+                ApplicationIcon = "Images/App.ico"
                 AssemblyKeyContainerName = ""
                 AssemblyName = "systemTrayApplication"
                 AssemblyOriginatorKeyFile = ""
@@ -94,28 +94,38 @@
         <Files>
             <Include>
                 <File
-                    RelPath = "App.ico"
-                    BuildAction = "Content"
-                />
-                <File
                     RelPath = "AssemblyInfo.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "Form1.cs"
+                    RelPath = "MainForm.cs"
                     SubType = "Form"
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "Form1.resx"
-                    DependentUpon = "Form1.cs"
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.cs"
                     BuildAction = "EmbeddedResource"
                 />
                 <File
                     RelPath = "NativeWIN32.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\MainWindowControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\MainWindowControl.resx"
+                    DependentUpon = "MainWindowControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\App.ico"
+                    BuildAction = "EmbeddedResource"
                 />
             </Include>
         </Files>

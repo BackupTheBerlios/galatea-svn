@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 
 
-namespace SampleNotifyIconApplication
+namespace HotCLI
 {
 	/// <summary>
 	/// Summary description for NativeWIN32.
