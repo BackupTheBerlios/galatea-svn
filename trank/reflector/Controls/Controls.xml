@@ -4,37 +4,35 @@
         <name>Controls</name>
     </assembly>
     <members>
-        <member name="T:MP.Controls.FSExplorerControl">
+        <member name="T:MP.Controls.Utils.FSAdapter">
             <summary>
-            Summary description for UserControl1.
+            Incapsulates operations On file System
             </summary>
         </member>
-        <member name="F:MP.Controls.FSExplorerControl.components">
+        <member name="M:MP.Controls.Utils.FSAdapter.#ctor">
             <summary>
-            Required designer variable.
+            default constructor
             </summary>
         </member>
-        <member name="M:MP.Controls.FSExplorerControl.Dispose(System.Boolean)">
+        <member name="M:MP.Controls.Utils.FSAdapter.getDrives">
             <summary>
-            Clean up any resources being used.
+            Query for windows drives 
             </summary>
+            <returns>Collection of available drives</returns>
         </member>
-        <member name="M:MP.Controls.FSExplorerControl.InitializeComponent">
+        <member name="M:MP.Controls.Utils.FSAdapter.getFullPath(System.String)">
             <summary>
-            Required method for Designer support - do not modify 
-            the contents of this method with the code editor.
+            access to full path of the node
             </summary>
+            <param name="stringPath"> string eit path</param>
+            <returns>reformatted path </returns>
         </member>
-        <member name="M:MP.Controls.FSExplorerAdapterControl.Dispose(System.Boolean)">
+        <member name="M:MP.Controls.Utils.FSAdapter.GetPathName(System.String)">
             <summary>
-            Clean up any resources being used.
+            access to file name
             </summary>
-        </member>
-        <member name="M:MP.Controls.FSExplorerAdapterControl.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
+            <param name="stringPath">full path </param>
+            <returns>jast the file name</returns>
         </member>
         <member name="T:MP.Controls.Utils.FSDrive">
             <summary>
@@ -116,35 +114,52 @@
             drive name
             </summary>
         </member>
-        <member name="T:MP.Controls.Utils.FSAdapter">
+        <member name="T:MP.Controls.FSExplorerControl">
             <summary>
-            Incapsulates operations On file System
+            Summary description for UserControl1.
             </summary>
         </member>
-        <member name="M:MP.Controls.Utils.FSAdapter.#ctor">
+        <member name="F:MP.Controls.FSExplorerControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MP.Controls.FSExplorerAdapterControl">
+            <summary>
+            Provide logic layer behind file system explorer control
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerAdapterControl.#ctor">
             <summary>
             default constructor
             </summary>
         </member>
-        <member name="M:MP.Controls.Utils.FSAdapter.getDrives">
+        <member name="M:MP.Controls.FSExplorerAdapterControl.Dispose(System.Boolean)">
             <summary>
-            Query for windows drives 
+            Clean up any resources being used.
             </summary>
-            <returns>Collection of available drives</returns>
         </member>
-        <member name="M:MP.Controls.Utils.FSAdapter.getFullPath(System.String)">
+        <member name="M:MP.Controls.FSExplorerAdapterControl.InitializeComponent">
             <summary>
-            access to full path of the node
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
             </summary>
-            <param name="stringPath"> string eit path</param>
-            <returns>reformatted path </returns>
         </member>
-        <member name="M:MP.Controls.Utils.FSAdapter.GetPathName(System.String)">
+        <member name="M:MP.Controls.FSExplorerAdapterControl.InitFS">
             <summary>
-            access to file name
+            initializes the control 
             </summary>
-            <param name="stringPath">full path </param>
-            <returns>jast the file name</returns>
         </member>
     </members>
 </doc>
