@@ -1,0 +1,17 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Windows.Forms">
+      <Item value="ListBox" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="C:\Documents and Settings\root.MICHAEL-UFR53TN\My Documents\Visual Studio Projects\remoting1\reflector\Form1.cs" offset="144" line="0" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+</Configuration>

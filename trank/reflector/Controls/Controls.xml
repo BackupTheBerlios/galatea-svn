@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Controls</name>
+    </assembly>
+    <members>
+        <member name="T:MP.Controls.FSExplorerControl">
+            <summary>
+            Summary description for UserControl1.
+            </summary>
+        </member>
+        <member name="F:MP.Controls.FSExplorerControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerAdapterControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:MP.Controls.FSExplorerAdapterControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MP.Controls.Utils.FSDrive">
+            <summary>
+            represent hard drive 
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrive.mType">
+            <summary>
+            holds the type of the drive
+            </summary>
+        </member>
+        <member name="M:MP.Controls.Utils.FSDrive.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:MP.Controls.Utils.FSDrive.Type">
+            <summary>
+            On of the Drive Types
+            </summary>
+        </member>
+        <member name="T:MP.Controls.Utils.FSDrive.DriveType">
+            <summary>
+            Types of disk drives available in the system
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrive.DriveType.Invalid">
+            <summary>
+            default value
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrive.DriveType.Removable">
+            <summary>
+            removable disk 
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrive.DriveType.LocalDisk">
+            <summary>
+            Local disk
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrive.DriveType.Network">
+            <summary>
+            Network disk
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrive.DriveType.CD">
+            <summary>
+            CD drive
+            </summary>
+        </member>
+        <member name="T:MP.Controls.Utils.FSDrivePresentationInfo">
+            <summary>
+            Holds graphical presentation for Data drive
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrivePresentationInfo.mImageIndex">
+            <summary>
+            the index of item icon
+            </summary>
+        </member>
+        <member name="F:MP.Controls.Utils.FSDrivePresentationInfo.mSelectedIndex">
+            <summary>
+            index of selected item Icon
+            </summary>
+        </member>
+        <member name="P:MP.Controls.Utils.FSDrivePresentationInfo.ImageIndex">
+            <summary>
+            the index of item icon
+            </summary>
+        </member>
+        <member name="P:MP.Controls.Utils.FSDrivePresentationInfo.SelectedIndex">
+            <summary>
+            index of selected item Icon
+            </summary>
+        </member>
+        <member name="P:MP.Controls.Utils.FSDrivePresentationInfo.Name">
+            <summary>
+            drive name
+            </summary>
+        </member>
+        <member name="T:MP.Controls.Utils.FSAdapter">
+            <summary>
+            Incapsulates operations On file System
+            </summary>
+        </member>
+        <member name="M:MP.Controls.Utils.FSAdapter.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="M:MP.Controls.Utils.FSAdapter.getDrives">
+            <summary>
+            Query for windows drives 
+            </summary>
+            <returns>Collection of available drives</returns>
+        </member>
+        <member name="M:MP.Controls.Utils.FSAdapter.getFullPath(System.String)">
+            <summary>
+            access to full path of the node
+            </summary>
+            <param name="stringPath"> string eit path</param>
+            <returns>reformatted path </returns>
+        </member>
+        <member name="M:MP.Controls.Utils.FSAdapter.GetPathName(System.String)">
+            <summary>
+            access to file name
+            </summary>
+            <param name="stringPath">full path </param>
+            <returns>jast the file name</returns>
+        </member>
+    </members>
+</doc>

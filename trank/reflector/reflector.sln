@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflector", "reflector.csproj", "{5EF17ED8-0C5C-4544-B304-79BFDDB8FA81}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{39CE8DE5-A38B-4145-BA64-218EC51A3CD7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5EF17ED8-0C5C-4544-B304-79BFDDB8FA81}.Debug.ActiveCfg = Debug|.NET
+		{5EF17ED8-0C5C-4544-B304-79BFDDB8FA81}.Debug.Build.0 = Debug|.NET
+		{5EF17ED8-0C5C-4544-B304-79BFDDB8FA81}.Release.ActiveCfg = Release|.NET
+		{5EF17ED8-0C5C-4544-B304-79BFDDB8FA81}.Release.Build.0 = Release|.NET
+		{39CE8DE5-A38B-4145-BA64-218EC51A3CD7}.Debug.ActiveCfg = Debug|.NET
+		{39CE8DE5-A38B-4145-BA64-218EC51A3CD7}.Debug.Build.0 = Debug|.NET
+		{39CE8DE5-A38B-4145-BA64-218EC51A3CD7}.Release.ActiveCfg = Release|.NET
+		{39CE8DE5-A38B-4145-BA64-218EC51A3CD7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
