@@ -68,9 +68,6 @@ namespace MP
 				/// </summary>
 				public FSDrive()
 				{
-					// 
-					// TODO: Add constructor logic here
-					//
 					mType = DriveType.Invalid;
 				}
 
