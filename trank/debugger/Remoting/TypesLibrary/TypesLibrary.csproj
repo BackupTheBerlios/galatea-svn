@@ -89,7 +89,7 @@
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "SampleObject.cs"
+                    RelPath = "ServingObject.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
                 />

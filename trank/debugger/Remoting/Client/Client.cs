@@ -18,8 +18,8 @@ namespace Client
 			ChannelServices.RegisterChannel(chan);
 
 			// Create an instance of the remote object
-			SampleObject obj = (SampleObject) Activator.GetObject( 
-				typeof(SampleObject),
+			ServingObject obj = (ServingObject) Activator.GetObject( 
+				typeof(ServingObject),
 				"tcp://localhost:8080/HelloWorld" );
 
 			// Use the object

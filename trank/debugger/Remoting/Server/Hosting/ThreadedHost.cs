@@ -25,7 +25,7 @@ namespace Server
 				this.mChannel = new TcpChannel(mPort);
 				ChannelServices.RegisterChannel(mChannel);
 				
-				RemotingConfiguration.RegisterWellKnownServiceType(typeof(SampleObject),String.Empty,
+				RemotingConfiguration.RegisterWellKnownServiceType(typeof(ServingObject),String.Empty,
 					WellKnownObjectMode.SingleCall);
 
 

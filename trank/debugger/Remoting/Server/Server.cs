@@ -19,7 +19,7 @@ namespace Server
 
 			// Register as an available service with the name HelloWorld
 			RemotingConfiguration.RegisterWellKnownServiceType(
-				typeof (SampleObject),
+				typeof (ServingObject),
 				"HelloWorld",
 				WellKnownObjectMode.SingleCall);
 
