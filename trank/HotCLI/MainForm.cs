@@ -171,14 +171,22 @@ namespace HotCLI
 		#region HOTCLIForm_KeyUpCallback
 		private void HOTCLIForm_KeyUpCallback(object sender, System.Windows.Forms.KeyEventArgs e)
 		{
+			
+		}
+		#endregion // HOTCLIForm_KeyUpCallback
+
+		#region HOTCLIForm_KeyDownCallback
+		private void HOTCLIForm_KeyDownCallback(object sender, System.Windows.Forms.KeyEventArgs e)
+		{
 			if(e.KeyCode == Keys.Escape)
 			{
 				HideApp();
 			}
-		}
-		#endregion
-
 		
+		}
+
+		#endregion// HOTCLIForm_KeyDownCallback
+
 		#endregion // Callbacks
 
 		#endregion // Methods
@@ -248,6 +256,7 @@ namespace HotCLI
 			this.Text = "Form1";
 			this.TopMost = true;
 			this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HOTCLIForm_KeyDownCallback);
 			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.HOTCLIForm_KeyUpCallback);
 
 		}
@@ -264,6 +273,8 @@ namespace HotCLI
 		}
 
 		#endregion
+
+		
 
 		
 
