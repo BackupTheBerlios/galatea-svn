@@ -331,15 +331,15 @@
   (setq shell-directory-name "~/.xemacs/eshell_control_files/")
   ;; You may type alt-x eshell to invoke eshell. To set the path and
   ;;environment correctly, you may want to put this into your .emacs file.
-
   (add-hook 'eshell-mode-hook
 	    '(lambda nil
 	       (eshell/export "EPOCROOT=\\Paragon\\")
 	       (let ((path))
+		 ;; TODO: This is paltform specific separator, replace this
 		 (setq path ".;c:/program files/microsoft visual studio/vb98/")
 		 (setq path (concat path ";c:/programs/perl/bin"))
 		 (setenv "PATH" path))
-	       ;(local-set-key "\C-u" 'eshell-kill-input)
+		;(local-set-key "\C-u" 'eshell-kill-input)
 	       )
 	    )
   
