@@ -1,6 +1,6 @@
 ;;; **************************************************************************
 ;; @(#) dired-single.el -- reuse the current dired buffer to visit another directory
-;; @(#) $Id: dired-single.el,v 1.1.1.1 2003/03/10 20:23:15 michael Exp $
+;; @(#) $Id: dired-single.el,v 1.6 2001/01/11 02:56:01 root Exp $
 
 ;; This file is not part of Emacs
 
@@ -92,7 +92,8 @@
 ;;  the normal one (dired-up-directory), which has the same effect as hitting
 ;;  [Return] on the parent directory line ("..")).  Finally, it maps a
 ;;  button-one click to the joc-dired-single-buffer-mouse function, which does
-;;  some mouse selection stuff, and then calls into the main
+;;  some mouse selection stuff, and then c
+alls into the main
 ;;  joc-dired-single-buffer function.
 ;;
 ;;  NOTE: This should only be done for the dired-mode-map (NOT globally!).
@@ -212,7 +213,7 @@
 ;;; ***** version related routines
 ;;; **************************************************************************
 (defconst joc-dired-single-version
-  "$Revision: 1.1.1.1 $"
+  "$Revision: 1.6 $"
   "joc-dired-single version number.")
 
 ;; ---------------------------------------------------------------------------
